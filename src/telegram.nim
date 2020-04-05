@@ -28,3 +28,4 @@ proc sendMessage*(bot: TelegramBot, message: string): Response =
 
     client.headers.add("Content-Type", "application/json")
     result = client.post( format(TelegramSendMessageUrl, bot.token), $payload )
+    client.close();

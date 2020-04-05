@@ -25,7 +25,7 @@ Copy the `monitor`, `bot` and `index.html` file to a location on your server.
 ## Config
 
 There are two files that are required for the operation of this bot
-- `.cookie` contains the `.XPRSDRVAUTH=xXxXxXxX` auth cookie as handed to an authenticated user by the leclercdrive.fr website
+- `.cookie` contains the `.XPRSDRVAUTH=xXxXxXxX` auth cookie obtained from the leclercdrive.fr website once you log in
 - `.telegram_bot` contains your telegram bot key
 
 ## Running
