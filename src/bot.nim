@@ -22,7 +22,7 @@ proc logAvailability(availability: seq[string]) =
 proc logResponse(response: string) =
     var f: File
     try:
-        f = open("out.html", fmWrite)
+        f = open("last-response.html", fmWrite)
         f.write(response)
     except:
         warn(getCurrentExceptionMsg())
