@@ -8,7 +8,7 @@ available pick up slots has dried out. New slots are being made available at ran
 on the website to comlete your order before someone else does.
 
 This bot monitors the leclercdrive.fr website and notifies you on a Telegram channel whenever there are newly available
-pick up time slots.
+pick up time slots. It's up to you to have your basket pre-filled and your credit card handy!
 
 ## Nim version
 
