@@ -21,7 +21,7 @@ proc getPage*(): Response =
 
     info("Checking availability")
 
-    var client = newHttpClient(UserAgent)
+    var client = newHttpClient(UserAgent, timeout = 10_000)
 
     client.headers.add("Accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9")
     client.headers.add("Accept-Language", "en-US,en;q=0.9")
